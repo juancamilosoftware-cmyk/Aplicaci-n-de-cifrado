@@ -3,10 +3,9 @@
 ## Portada
 
 **Título:** Aplicación de escritorio para cifrar y descifrar números de seis dígitos  
-**Estudiante:** [NOMBRE COMPLETO]  
-**Asignatura:** [ASIGNATURA]  
-**Institución:** [INSTITUCIÓN]  
-**Fecha:** [FECHA]
+**Estudiante:** Juan Camilo Narvaez Sanchez 
+**Asignatura:** Aplicacion 
+**Institución:** Univercidad la salle  
 
 ## Introducción
 
@@ -93,11 +92,16 @@ En cada entrada incorrecta se probaron **ambas funciones**, esperando ValueError
 
 La captura de ventanas falló con el mensaje `foreground window did not report a process id`. El intento de recuperación ya no detectó las ventanas del proyecto. No se generaron capturas ni se sustituyeron por simulaciones. Siga `capturas/INSTRUCCIONES.md` para añadirlas.
 
-- **[INSERTAR CAPTURA 1]** Ventana principal completa: `capturas/01_principal.png`.
-- **[INSERTAR CAPTURA 2]** Ventana de cifrado, caso 1: entrada `123456`, resultado `018932`.
-- **[INSERTAR CAPTURA 3]** Ventana de descifrado, caso 1: entrada `018932`, resultado `123456`.
-- **[INSERTAR CAPTURA 4]** Ventana de cifrado, caso 2: entrada `791658`, resultado `834652`.
-- **[INSERTAR CAPTURA 5]** Ventana de descifrado, caso 2: entrada `834652`, resultado `791658`.
+- **<img width="415" height="503" alt="image" src="https://github.com/user-attachments/assets/83aeda8b-9ef9-439b-8f63-65175b781cbd" />
+** Ventana principal completa: `capturas/01_principal.png`.
+- **<img width="503" height="446" alt="image" src="https://github.com/user-attachments/assets/9510d1ab-1344-4103-890c-8180155907fb" />
+** Ventana de cifrado, caso 1: entrada `123456`, resultado `018932`.
+- **<img width="503" height="444" alt="image" src="https://github.com/user-attachments/assets/c0ae628f-f3ca-46c8-a8a2-8ba66e62bee2" />
+** Ventana de descifrado, caso 1: entrada `018932`, resultado `123456`.
+- **<img width="508" height="450" alt="image" src="https://github.com/user-attachments/assets/7500b6d6-10a3-4662-8454-8b593f1981e9" />
+** Ventana de cifrado, caso 2: entrada `791658`, resultado `834652`.
+- **<img width="509" height="446" alt="image" src="https://github.com/user-attachments/assets/d3d1a854-536b-491c-988a-ee1c2eb22f5e" />
+** Ventana de descifrado, caso 2: entrada `834652`, resultado `791658`.
 
 ### Revisión manual pendiente
 
@@ -114,7 +118,13 @@ La captura de ventanas falló con el mensaje `foreground window did not report a
 
 **Propuesta de reflexión para adaptar a la experiencia real del estudiante:**
 
-«Este proyecto me permitió practicar [explicar lo aprendido realmente] y relacionar las funciones de Python con los eventos de una interfaz. La conservación de los ceros iniciales muestra por qué conviene trabajar con cadenas en este problema. Al comparar los resultados esperados con los calculados identifiqué [describir la revisión realizada y la discrepancia del segundo caso]. La dificultad que encontré fue [dificultad real] y la abordé mediante [acción real]. Como mejora propondría [mejora justificada]. Antes de entregar, completé [indicar únicamente las pruebas y capturas que realmente se realizaron].»
+El desarrollo de este proyecto permitió aplicar funciones de Python, validaciones de entrada y eventos de una interfaz gráfica con Tkinter. La organización por capas facilitó la separación entre la presentación, los servicios y las reglas del algoritmo, lo que favorece la comprensión, el mantenimiento y las pruebas del programa. Además, la conservación de los ceros iniciales demostró la importancia de tratar las secuencias como cadenas de texto.
 
-Esta reflexión es una propuesta, no una afirmación sobre la experiencia personal del estudiante.
+Durante la verificación se identificó una discrepancia en el segundo caso del enunciado: al aplicar la fórmula y los intercambios indicados, el número 791658 produce 834652, en lugar de 835682. Esta diferencia se analizó mediante el cálculo paso a paso y las pruebas automatizadas, conservando las reglas del algoritmo solicitado.
+
+Las ocho pruebas automatizadas finalizaron correctamente e incluyeron entradas inválidas, conservación de ceros iniciales y recuperación de 10.000 secuencias mediante cifrado y descifrado. También se comprobaron operaciones de la interfaz antes de reorganizar el proyecto por capas; la revisión visual de la versión final y las capturas de pantalla permanecen pendientes.
+
+Como mejora, se propone incorporar una explicación visual de cada transformación para que el usuario comprenda cómo se obtiene el resultado. Finalmente, este trabajo permite reconocer que un algoritmo reversible puede ser útil para aprender programación, aunque no proporcione seguridad criptográfica para proteger datos reales.
+
+
 
