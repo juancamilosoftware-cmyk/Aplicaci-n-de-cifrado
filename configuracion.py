@@ -1,0 +1,5 @@
+"""Datos editables compartidos; no contiene reglas de negocio."""
+ESTUDIANTE = "Juan Camilo Narvaez Sanchez"
+ASIGNATURA = "Aplicaciones"
+INSTITUCION = "Universidad de La Sella"
+FECHA = "25-10-2026"
