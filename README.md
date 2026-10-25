@@ -17,23 +17,6 @@ Cambie las constantes ESTUDIANTE, ASIGNATURA, INSTITUCION y FECHA en `configurac
 
 Desde la ventana principal abra Cifrado o Descifrado. Ingrese seis dígitos y pulse el botón correspondiente o Enter. Limpiar borra la entrada y la salida; Cerrar cierra solamente la ventana secundaria; Salir termina la aplicación. Abrir nuevamente una ventana existente la trae al frente. Se permiten espacios exteriores; los interiores se rechazan. La salida siempre es texto, por lo que `018932` conserva su cero inicial.
 
-## Pruebas
-
-Ejecute desde la carpeta del proyecto:
-
-```console
-python -m unittest discover -s tests -v
-```
-
-Son ocho métodos de prueba con subcasos: casos obligatorios con la corrección documentada, entradas incorrectas, ceros iniciales, espacios exteriores, discrepancia del enunciado y recuperación de 10.000 valores. `pruebas_resultados.txt` contiene la ejecución realizada. No equivale a probar el millón de entradas posibles.
-
-Para verificar los controles con un escritorio gráfico:
-
-```console
-python verificar_interfaz.py
-```
-
-Este programa usa las ventanas y botones reales, verifica ambos casos y los ceros, comprueba que se reutilicen las ventanas y deja visible el caso 1 para capturarlo. Cierre la ventana principal al terminar. `gui_resultados.txt` registra la ejecución realizada. Esta comprobación no sustituye las revisiones manuales pendientes del informe.
 
 ## Archivos
 
